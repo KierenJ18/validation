@@ -1,0 +1,9 @@
+executable = /home/hep/kj4718/validation/wcsim-validation-main/analysis_script.sh
+output =  /home/hep/kj4718/validation/batch_system/outputs/outputfile.$(CLUSTER)
+arguments = em_500MeV_1
+error =  /home/hep/kj4718/validation/batch_system/errors/errorfile.$(CLUSTER)
+log =  /home/hep/kj4718/validation/batch_system/logs/example.job.$(CLUSTER).log
++MaxRuntime = 86400
+request_gpus = 1
+
+queue

@@ -1,0 +1,5 @@
+/mygen/generator gun
+/gun/particle e-
+/gun/energy 5 MeV
+/gun/direction 0.000000 -1.000000 0.000000
+/gun/position 0.000000 -2758.380000 -2372.583333
