@@ -1,13 +1,13 @@
 # 1) Install dependencies
-- Geant4 10.3.3 https://geant4.web.cern.ch/download/10.3.3.html
-	- https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/BackupVersions/V10.3/html/ch02.html#sect.UnixBuildAndInstall
--  ROOT 
-- HepMC3 3.2.6 https://gitlab.cern.ch/hepmc/HepMC3
+- [Geant4 10.3.3](https://geant4.web.cern.ch/download/10.3.3.html)
+	-[How to install](https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/BackupVersions/V10.3/html/ch02.html#sect.UnixBuildAndInstall)
+- [ROOT 10.36.00](https://root.cern/releases/release-63600/)
+- [HepMC3 3.2.6](https://gitlab.cern.ch/hepmc/HepMC3)
+- [Install WCSim (whatever version you need)](https://github.com/WCSim/wcsim)
+	- `git checkout tags/<version>`
 
--  Install WCSim (whatever version you need) https://github.com/WCSim/wcsim
-	`git checkout tags/<version>`
-
-# 2) Clone specific version of WCSim-Validation github page https://gitlab.com/tdealtry/wcsim-validation#running-wcsim
+# 2) Clone specific version of WCSim-Validation github page:
+- [Github page](https://gitlab.com/tdealtry/wcsim-validation#running-wcsim)
 
 # 3) Create a shell script connecting each part of the above together
 ```
