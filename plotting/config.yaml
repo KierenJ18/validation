@@ -1,0 +1,11 @@
+datasets:
+  hkfd_id_e:
+    folder: "/vols/hyperk/users/kj4718/validation/analysed_results/hkfd_id_e_v2"
+    events_per_file: 100
+    label: "HKFD Electrons"
+    color: "blue"
+  # iwcd_id_e:
+  #   folder: "/vols/hyperk/users/kj4718/validation/analysed_results/iwcd_id_e"
+  #   events_per_file: 250
+  #   label: "IWCD Electrons"
+  #   color: "red"
