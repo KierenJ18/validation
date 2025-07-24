@@ -1,4 +1,4 @@
-1) Install dependencies
+# 1) Install dependencies
 - Geant4 10.3.3 https://geant4.web.cern.ch/download/10.3.3.html
 	- https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/BackupVersions/V10.3/html/ch02.html#sect.UnixBuildAndInstall
 -  ROOT 
@@ -7,9 +7,9 @@
 -  Install WCSim (whatever version you need) https://github.com/WCSim/wcsim
 	`git checkout tags/<version>`
 
-2) Clone specific version of WCSim-Validation github page https://gitlab.com/tdealtry/wcsim-validation#running-wcsim
+# 2) Clone specific version of WCSim-Validation github page https://gitlab.com/tdealtry/wcsim-validation#running-wcsim
 
-3) Create a shell script connecting each part of the above together
+# 3) Create a shell script connecting each part of the above together
 ```
 #!/bin/bash  
   
