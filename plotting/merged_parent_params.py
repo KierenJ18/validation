@@ -1,5 +1,4 @@
-# ...existing code...
-# Load packages
+#Import packages
 import sys
 import os
 import matplotlib.pyplot as plt
